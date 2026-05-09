@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ListExample {
+    public static void main(String[] args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        // Add elements
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+        fruits.add("Apple"); // Duplicates allowed
+
+        // Sorting using the Collections utility class
+        Collections.sort(fruits);
+
+        System.out.println("Sorted List: " + fruits);
+    }
+}
